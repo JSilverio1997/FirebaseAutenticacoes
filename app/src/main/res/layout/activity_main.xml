@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttton_Login_Google"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/cardview_light_background"
+        android:clickable="true"
+        android:drawableLeft="@drawable/logo_google"
+        android:focusable="true"
+        android:paddingLeft="20dp"
+        android:text="Login com o Google"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+   <Button
+        android:id="@+id/buttton_Login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Login com E-mail"
+       android:drawableLeft="@drawable/logo_email"
+       android:paddingLeft="20dp"
+       android:background="@color/colorBranco"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_Cadastrar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Cadastrar"
+        android:background="@color/colorBranco"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_Login_Anonimo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Pular"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorBranco"
+        />
+
+</LinearLayout>
